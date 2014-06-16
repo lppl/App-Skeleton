@@ -17,12 +17,22 @@
       "woff": "lib/fonts"
     },
     "sources" : {
+      "jasmine": [
+        "bower_components/jasmine/lib/jasmine-core/jasmine.js",
+        "bower_components/jasmine/lib/jasmine-core/jasmine-html.js",
+        "bower_components/jasmine/lib/jasmine-core/boot.js",
+        "bower_components/jasmine/lib/jasmine-core/jasmine.css",
+        "bower_components/requirejs/require.js"
+      ]
     }
   },
   "dependencies" : {
-    "jquery-ui" : "latest",
+    "bootstrap" : "latest",
+    "jasmine" : "latest",
+    "jasmine-jquery" : "latest",
     "jquery" : "latest",
-    "underscore" : "latest",
-    "bootstrap" : "latest"
+    "jquery-ui" : "latest",
+    "requirejs" : "latest",
+    "underscore" : "latest"
   }
 }
