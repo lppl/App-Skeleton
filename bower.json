@@ -1,0 +1,28 @@
+{
+  "name": "app-skeleton",
+  "description": "Skeleton for web apps, where setup of favourites toys takes more time than work (born from frustration).",
+  "version": "0.0.0",
+  "authors": [
+    "Łukasz Pietrek <lpietrek@gmail.com>"
+  ],
+  "license": "MIT",
+  "install" : {
+    "path" : {
+      "css": "lib/css",
+      "js": "lib/js",
+      "map": "lib/js",
+      "eot": "lib/fonts",
+      "svg": "lib/fonts",
+      "ttf": "lib/fonts",
+      "woff": "lib/fonts"
+    },
+    "sources" : {
+    }
+  },
+  "dependencies" : {
+    "jquery-ui" : "latest",
+    "jquery" : "latest",
+    "underscore" : "latest",
+    "bootstrap" : "latest"
+  }
+}
